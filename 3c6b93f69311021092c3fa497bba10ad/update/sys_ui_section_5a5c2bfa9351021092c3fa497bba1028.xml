@@ -4,167 +4,139 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>125c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>6452580b9315021092c3fa497bba1070</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>visitante</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>925c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>e452580b9315021092c3fa497bba1070</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
+            <element>visitante.nome</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>165c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>6852580b9315021092c3fa497bba1070</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
+            <element>visitante.e_mail</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>1a5c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>e852580b9315021092c3fa497bba1070</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visitante.telefone</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>6c52580b9315021092c3fa497bba1070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>visitante.empresa</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>ec52580b9315021092c3fa497bba1070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>965c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>6052580b9315021092c3fa497bba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>9a5c2bfa9351021092c3fa497bba102a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>1e5c2bfa9351021092c3fa497bba102a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
+            <element>situacao</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>9e5c2bfa9351021092c3fa497bba102a</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>e052580b9315021092c3fa497bba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>u_start_date</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>125c2bfa9351021092c3fa497bba102b</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>6452580b9315021092c3fa497bba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
+            <element>u_end_date</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>925c2bfa9351021092c3fa497bba102b</sys_id>
+            <sys_created_on>2024-04-05 16:47:59</sys_created_on>
+            <sys_id>e452580b9315021092c3fa497bba1071</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>165c2bfa9351021092c3fa497bba102b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 14:02:05</sys_created_on>
-            <sys_id>965c2bfa9351021092c3fa497bba102b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">5a5c2bfa9351021092c3fa497bba1028</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 14:02:05</sys_updated_on>
+            <sys_updated_on>2024-04-05 16:47:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
