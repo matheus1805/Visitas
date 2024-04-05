@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Edit Button (Location)">a88f1b729351021092c3fa497bba1031</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit (Location)</name>
+        <order/>
+        <parent>ac8fd7729351021092c3fa497bba10df</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 13:06:00</sys_created_on>
+        <sys_id>fc8f1b729351021092c3fa497bba1039</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit (Location)</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sys_sg_button_instance_fc8f1b729351021092c3fa497bba1039</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 13:06:00</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc8f1b729351021092c3fa497bba1039"/>
+</record_update>

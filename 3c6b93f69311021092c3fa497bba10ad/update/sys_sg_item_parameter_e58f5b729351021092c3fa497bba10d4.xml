@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="INSERT_OR_UPDATE">
+        <default_value/>
+        <name>Solicitações state</name>
+        <parent>e98f5b729351021092c3fa497bba10d3</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 13:06:03</sys_created_on>
+        <sys_id>e58f5b729351021092c3fa497bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitações state</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_e58f5b729351021092c3fa497bba10d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 13:06:03</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+</record_update>

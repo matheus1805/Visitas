@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4dcb2bfe9351021092c3fa497bba10ba" sys_domain="global" table="core_company" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-05 13:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dcb2bfe9351021092c3fa497bba10c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="core_company" name="core_company" sys_domain="global" view="89cb2bfe9351021092c3fa497bba10b4">4dcb2bfe9351021092c3fa497bba10ba</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="core_company" sys_domain="global" view="89cb2bfe9351021092c3fa497bba10b4">c1cb2bfe9351021092c3fa497bba10b9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-05 13:59:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-05 13:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5cb2bfe9351021092c3fa497bba10ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="core_company" name="core_company" sys_domain="global" view="89cb2bfe9351021092c3fa497bba10b4">4dcb2bfe9351021092c3fa497bba10ba</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="core_company" sys_domain="global" view="89cb2bfe9351021092c3fa497bba10b4">4dcb2bfe9351021092c3fa497bba10b9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-05 13:59:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>core_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-05 13:59:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dcb2bfe9351021092c3fa497bba10ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>core_company</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4dcb2bfe9351021092c3fa497bba10ba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-05 13:59:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="visitas" name="visitas">89cb2bfe9351021092c3fa497bba10b4</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

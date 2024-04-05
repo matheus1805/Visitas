@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Cadastro Visitantes)">518f5b729351021092c3fa497bba1066</button>
+        <item_parameter display_value="Cadastro Visitantes nome">598f5b729351021092c3fa497bba104c</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 13:06:02</sys_created_on>
+        <sys_id>558f5b729351021092c3fa497bba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>598f5b729351021092c3fa497bba104c</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_558f5b729351021092c3fa497bba1067</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 13:06:02</sys_updated_on>
+        <ui_parameter display_value="Nome">5d8f5b729351021092c3fa497bba1066</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
