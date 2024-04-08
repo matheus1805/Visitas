@@ -4,55 +4,41 @@
             <element>assigned_to</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 16:50:00</sys_created_on>
-            <sys_id>0ec290c79315021092c3fa497bba1034</sys_id>
+            <sys_created_on>2024-04-08 14:23:26</sys_created_on>
+            <sys_id>540ec37f9351021092c3fa497bba10f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Responsável pela visita" display_value="Responsável pela visita" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">f725f3ba9391021092c3fa497bba1039</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 16:50:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>localidade</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 16:50:00</sys_created_on>
-            <sys_id>8ec290c79315021092c3fa497bba1034</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Responsável pela visita" display_value="Responsável pela visita" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">f725f3ba9391021092c3fa497bba1039</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 16:50:00</sys_updated_on>
+            <sys_updated_on>2024-04-08 14:23:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 16:50:00</sys_created_on>
-            <sys_id>02c290c79315021092c3fa497bba1035</sys_id>
+            <sys_created_on>2024-04-08 14:23:26</sys_created_on>
+            <sys_id>d40ec37f9351021092c3fa497bba10f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Responsável pela visita" display_value="Responsável pela visita" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">f725f3ba9391021092c3fa497bba1039</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 16:50:00</sys_updated_on>
+            <sys_updated_on>2024-04-08 14:23:26</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to.department</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-05 16:50:00</sys_created_on>
-            <sys_id>82c290c79315021092c3fa497bba1035</sys_id>
+            <sys_created_on>2024-04-08 14:23:26</sys_created_on>
+            <sys_id>580ec37f9351021092c3fa497bba10f3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Responsável pela visita" display_value="Responsável pela visita" name="x_1343295_vst_solicitacoes" sys_domain="global" view="Default view">f725f3ba9391021092c3fa497bba1039</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-05 16:50:00</sys_updated_on>
+            <sys_updated_on>2024-04-08 14:23:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
