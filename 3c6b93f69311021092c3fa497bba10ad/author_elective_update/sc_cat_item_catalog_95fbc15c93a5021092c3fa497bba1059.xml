@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Solicitação de Visita">21d34dd093a5021092c3fa497bba1073</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:12:12</sys_created_on>
+        <sys_id>95fbc15c93a5021092c3fa497bba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Solicitação de Visita</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_95fbc15c93a5021092c3fa497bba1059</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:12:12</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</application>
+        <file_path/>
+        <instance_id>b1e134b8dbd23998ebdd2a591396196c</instance_id>
+        <instance_name>dev200140</instance_name>
+        <name>sc_cat_item_catalog_95fbc15c93a5021092c3fa497bba1059</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Solicitação de Visita">21d34dd093a5021092c3fa497bba1073</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-09 18:12:12</sys_created_on><sys_id>95fbc15c93a5021092c3fa497bba1059</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Solicitação de Visita</sys_name><sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package><sys_policy/><sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope><sys_update_name>sc_cat_item_catalog_95fbc15c93a5021092c3fa497bba1059</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-09 18:12:12</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-2062211363</payload_hash>
+        <record_name>Service Catalog.Solicitação de Visita</record_name>
+        <reverted_from/>
+        <source>fdcf27369391021092c3fa497bba10a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:12:12</sys_created_on>
+        <sys_id>d9fbc15c93a5021092c3fa497bba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec40f79320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:12:12</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5dfbc15c3aa50210296fec9503656b5b</update_guid>
+        <update_guid_history>5dfbc15c3aa50210296fec9503656b5b:-2062211363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Solicitação de Visita">82ccc19c93a5021092c3fa497bba100e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-09 18:15:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0a03b719f8cf40409de12df5225a1100</sys_id>
+        <sys_metadata>95fbc15c93a5021092c3fa497bba1059</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Solicitação de Visita</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_parent display_value="Solicitação de Visita">21d34dd093a5021092c3fa497bba1073</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_scope_delete display_value="">225759aa005e4a8abca5b7215b292fa4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_95fbc15c93a5021092c3fa497bba1059</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_95fbc15c93a5021092c3fa497bba1059">d9fbc15c93a5021092c3fa497bba105c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-09 18:15:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
