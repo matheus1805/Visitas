@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Cadastro de Visitante">e4486d6893a1021092c3fa497bba1008</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:37:34</sys_created_on>
+        <sys_id>e79d8ee09365021092c3fa497bba1062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastro de Visitante.Any User</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e79d8ee09365021092c3fa497bba1062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:37:34</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</application>
+        <file_path/>
+        <instance_id>b1e134b8dbd23998ebdd2a591396196c</instance_id>
+        <instance_name>dev200140</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_e79d8ee09365021092c3fa497bba1062</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cadastro de Visitante">e4486d6893a1021092c3fa497bba1008</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-10 17:37:34</sys_created_on><sys_id>e79d8ee09365021092c3fa497bba1062</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cadastro de Visitante.Any User</sys_name><sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package><sys_policy/><sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_e79d8ee09365021092c3fa497bba1062</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-10 17:37:34</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-693906045</payload_hash>
+        <record_name>Cadastro de Visitante.Any User</record_name>
+        <reverted_from/>
+        <source>fdcf27369391021092c3fa497bba10a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:37:34</sys_created_on>
+        <sys_id>639d8ee09365021092c3fa497bba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ec91622280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:37:34</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>e39d8ee0576502102d598776bfde5766</update_guid>
+        <update_guid_history>e39d8ee0576502102d598776bfde5766:-693906045</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cadastro de Visitante.Any User">5c8e02649365021092c3fa497bba101b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-10 17:41:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>48c9cc3a4e5843a09c2240c97b873900</sys_id>
+        <sys_metadata>e79d8ee09365021092c3fa497bba1062</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastro de Visitante.Any User</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_scope_delete display_value="">225759aa005e4a8abca5b7215b292fa4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_e79d8ee09365021092c3fa497bba1062</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_e79d8ee09365021092c3fa497bba1062">639d8ee09365021092c3fa497bba1067</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-10 17:41:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

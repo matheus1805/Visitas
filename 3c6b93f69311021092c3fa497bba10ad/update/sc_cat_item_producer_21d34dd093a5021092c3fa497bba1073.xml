@@ -14,7 +14,9 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<ul style="list-style-position: inside;"><li><strong>Requisição de acesso as dependencias da empresa</strong></li><li><strong>Requisito</strong></li></ul>
-<ul style="list-style-type: circle; list-style-position: inside;"><li>Visitante Devidamente Cadastro</li><li>Escritorio que será visitado</li><li>Data da Visita</li><li>Data da Saida</li><li>Pessoa Responsavel por acompanhar o Visitante</li></ul>]]></description>
+<ul style="list-style-type: circle; list-style-position: inside;"><li>Visitante Devidamente Cadastro</li><li>Escritorio que será visitado</li><li>Data da Visita</li><li>Data da Saida</li></ul>
+<ul style="list-style-position: inside;"><li>Pessoa Responsavel por acompanhar o Visitante</li></ul>
+<p>producer.portal_redirect &#61; &#34;sp?id&#61;standard_ticket_visitas&amp;table&#61;x_XXXXX_vst_solicitacoes&amp;sys_id&#61;&#34;&#43;current.sys_id;</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -88,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 17:36:43</sys_created_on>
         <sys_id>21d34dd093a5021092c3fa497bba1073</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Solicitação de Visita</sys_name>
         <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_update_name>sc_cat_item_producer_21d34dd093a5021092c3fa497bba1073</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 18:38:20</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-10 14:28:59</sys_updated_on>
         <table_name>x_1343295_vst_solicitacoes</table_name>
         <taxonomy_topic/>
         <template/>
@@ -103,7 +105,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>20</version>
+        <version>24</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
