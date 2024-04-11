@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Visitas Dashbord - New Tab">d53a47789325021092c3fa497bba1009</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 11/04/2024 13:46:55">eb9b8ff49325021092c3fa497bba10e5</portal_widget>
+        <posx>0</posx>
+        <posy>7</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-11 16:46:55</sys_created_on>
+        <sys_id>a79b8ff49325021092c3fa497bba10e7</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>d53a47789325021092c3fa497bba1009</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_a79b8ff49325021092c3fa497bba10e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-11 17:55:22</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

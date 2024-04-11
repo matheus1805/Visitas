@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Visitas">7f9c5370f6a50210643d3fae8a0b3bf5</dashboard>
+        <group/>
+        <role display_value="x_1343295_vst.usuario" name="x_1343295_vst.usuario">defbdf3e9311021092c3fa497bba10e2</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-11 18:01:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15acd37093a5021092c3fa497bba103c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7f9c5370f6a50210643d3fae8a0b3bf5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>par_dashboard_permission_15acd37093a5021092c3fa497bba103c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-11 18:01:18</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>
