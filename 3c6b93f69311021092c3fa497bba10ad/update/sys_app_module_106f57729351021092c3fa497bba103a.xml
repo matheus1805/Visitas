@@ -13,7 +13,7 @@
         <mobile_title>Cadastro Visitantes</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>7</order>
+        <order>70</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>106f57729351021092c3fa497bba103a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Cadastro Visitantes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_update_name>sys_app_module_106f57729351021092c3fa497bba103a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-05 13:05:26</sys_updated_on>
+        <sys_updated_on>2024-04-12 12:34:50</sys_updated_on>
         <timeline_page/>
         <title>Cadastro Visitantes</title>
         <uncancelable>false</uncancelable>

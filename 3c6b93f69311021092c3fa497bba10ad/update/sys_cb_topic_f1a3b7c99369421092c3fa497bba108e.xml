@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.51",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2271523b660c447982c3ca367425abce": {
+          "id": "2271523b660c447982c3ca367425abce",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2da5ff5655544c3d9b3b420a541d7d7f": {
+          "id": "2da5ff5655544c3d9b3b420a541d7d7f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "15485e394edb48eca54b7d2582bca888": {
+          "id": "15485e394edb48eca54b7d2582bca888",
+          "stepType": "TextPrompt",
+          "name": "Informe o Visitante",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Digite o E-mail do Visitante"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "2531fa3cd8f145258e3102bd894ddfa7",
+          "detailDescription": "",
+          "inputType": {
+            "format": "33513d135b1200101f254d3ba881c7d5",
+            "script": ""
+          }
+        },
+        "a59ad3a40f9b4bd5a55cdba260ca8dd5": {
+          "id": "a59ad3a40f9b4bd5a55cdba260ca8dd5",
+          "stepType": "LookupRecord",
+          "name": "Pesquisa Visitante",
+          "condition": {
+            "mode": "glide_query",
+            "value": "e_mail={{vaInputs.informe_o_visitante}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "79b86ea3bdd24d8585004e116437f3ae"
+        },
+        "c29582f2237048fa9dc738141ef01c41": {
+          "id": "c29582f2237048fa9dc738141ef01c41",
+          "stepType": "RecordOutput",
+          "name": "Apresenta Visitante",
+          "variableId": "79b86ea3bdd24d8585004e116437f3ae",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1343295_vst_cadastro_visitantes",
+          "fields": [
+            "nome",
+            "e_mail",
+            "identificador",
+            "telefone",
+            "empresa"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "d2ed570b89a2403aa9d2aa63a2e49d17": {
+          "name": "Valida Pesquisa",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "As Informações estão corretas?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "48a073ab243e4d078a8eef116cbef124",
+          "detailDescription": "",
+          "id": "d2ed570b89a2403aa9d2aa63a2e49d17",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "46a5ed9cd2c64c5b87cca3e5f5162787": {
+          "id": "46a5ed9cd2c64c5b87cca3e5f5162787",
+          "stepType": "Decision",
+          "name": "Sair"
+        },
+        "797d7c52cc764243b46ec2044c9d7c63": {
+          "id": "797d7c52cc764243b46ec2044c9d7c63",
+          "stepType": "ImplicitEnd"
+        },
+        "47c2257e23b24d95833fc45826fc1727": {
+          "name": "Localidades",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Estou Buscando as Localidades"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "eaf3e521770446308fedfd87c7d889a1",
+          "detailDescription": "",
+          "id": "47c2257e23b24d95833fc45826fc1727",
+          "stepType": "ReferenceChoicePrompt",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "country=Brasil"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "089fb2f95552430a87357aaa086ba786": {
+          "id": "089fb2f95552430a87357aaa086ba786",
+          "stepType": "DateTimePrompt",
+          "name": "Data de Entrada",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Data da Entrada"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b1e1efb317fd4453afb29aa4d2e93158",
+          "detailDescription": ""
+        },
+        "9d3eb2089ed44f798de11e74180888d0": {
+          "id": "9d3eb2089ed44f798de11e74180888d0",
+          "stepType": "DateTimePrompt",
+          "name": "Data de Saida",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Data de Saida"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "2fb7aa4444d34bbe9763001ed96c02c1",
+          "detailDescription": ""
+        },
+        "0e18c1ef854347fbb1e8bc30079f6753": {
+          "name": "Responsavel_pela_visita",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Voce Será Responsavel pela Visita"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "3e4c1733d8064452970047b8a81ebf5c",
+          "detailDescription": "",
+          "id": "0e18c1ef854347fbb1e8bc30079f6753",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        }
+      },
+      "edges": [
+        {
+          "id": "b68621e455804081bce0e111900661dd",
+          "edgeType": "Edge",
+          "source": "2271523b660c447982c3ca367425abce",
+          "target": "15485e394edb48eca54b7d2582bca888",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c8f560aaedda4bd583f128d50922624b",
+          "edgeType": "Edge",
+          "source": "15485e394edb48eca54b7d2582bca888",
+          "target": "a59ad3a40f9b4bd5a55cdba260ca8dd5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "7bdc47db1d9f4448be69e3ffca83cbcb",
+          "edgeType": "Edge",
+          "source": "a59ad3a40f9b4bd5a55cdba260ca8dd5",
+          "target": "c29582f2237048fa9dc738141ef01c41",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c0e7e22087d746ae9376818d738e2674",
+          "edgeType": "Edge",
+          "source": "c29582f2237048fa9dc738141ef01c41",
+          "target": "d2ed570b89a2403aa9d2aa63a2e49d17",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f964be498b5c4888b7d43522ffcf2154",
+          "edgeType": "Branch",
+          "source": "46a5ed9cd2c64c5b87cca3e5f5162787",
+          "target": "2da5ff5655544c3d9b3b420a541d7d7f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=2",
+            "mode": "query"
+          },
+          "label": "Sair"
+        },
+        {
+          "id": "b6185987e6aa4a769db556b10f92c277",
+          "edgeType": "Branch",
+          "source": "46a5ed9cd2c64c5b87cca3e5f5162787",
+          "target": "15485e394edb48eca54b7d2582bca888",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=3",
+            "mode": "query"
+          },
+          "label": "Pesquisa Novamente"
+        },
+        {
+          "id": "a0aaf0b94953420cb1d49d97c513bff9",
+          "edgeType": "Branch",
+          "source": "46a5ed9cd2c64c5b87cca3e5f5162787",
+          "target": "797d7c52cc764243b46ec2044c9d7c63",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.valida_pesquisa=1",
+            "mode": "query"
+          },
+          "label": "Sim"
+        },
+        {
+          "id": "4fad5b0f680946be9f0cdc81ed28f3d1",
+          "edgeType": "Edge",
+          "source": "d2ed570b89a2403aa9d2aa63a2e49d17",
+          "target": "47c2257e23b24d95833fc45826fc1727",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fc62eb57651141e39029b8bc4d7e1b35",
+          "edgeType": "Edge",
+          "source": "47c2257e23b24d95833fc45826fc1727",
+          "target": "089fb2f95552430a87357aaa086ba786",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "30b2d64c5c174dda9526eb3141a061c7",
+          "edgeType": "Edge",
+          "source": "089fb2f95552430a87357aaa086ba786",
+          "target": "9d3eb2089ed44f798de11e74180888d0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5be3f3882a1d4a1f9124da0ead5f4487",
+          "edgeType": "Edge",
+          "source": "9d3eb2089ed44f798de11e74180888d0",
+          "target": "0e18c1ef854347fbb1e8bc30079f6753",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cf46b5cffdaa47e5a89a2808f3c85209",
+          "edgeType": "Edge",
+          "source": "0e18c1ef854347fbb1e8bc30079f6753",
+          "target": "46a5ed9cd2c64c5b87cca3e5f5162787",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "2531fa3cd8f145258e3102bd894ddfa7": {
+      "id": "2531fa3cd8f145258e3102bd894ddfa7",
+      "name": "informe_o_visitante",
+      "label": "Informe O Visitante",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcxMjkzMTY0NDMxOCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "15485e394edb48eca54b7d2582bca888",
+      "isHidden": false
+    },
+    "79b86ea3bdd24d8585004e116437f3ae": {
+      "id": "79b86ea3bdd24d8585004e116437f3ae",
+      "name": "pesquisa_visitante",
+      "label": "Pesquisa Visitante",
+      "varType": "reference",
+      "table": "x_1343295_vst_cadastro_visitantes",
+      "category": "vaInputs",
+      "nodeId": "c29582f2237048fa9dc738141ef01c41",
+      "isHidden": false
+    },
+    "48a073ab243e4d078a8eef116cbef124": {
+      "id": "48a073ab243e4d078a8eef116cbef124",
+      "name": "valida_pesquisa",
+      "label": "Valida Pesquisa",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "1"
+        },
+        {
+          "label": "Sair",
+          "value": "2"
+        },
+        {
+          "label": "Pesq.Novamente",
+          "value": "3",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "d2ed570b89a2403aa9d2aa63a2e49d17",
+      "isHidden": false
+    },
+    "eaf3e521770446308fedfd87c7d889a1": {
+      "id": "eaf3e521770446308fedfd87c7d889a1",
+      "name": "localidades",
+      "label": "Localidades",
+      "varType": "reference",
+      "table": "cmn_location",
+      "category": "vaInputs",
+      "nodeId": "47c2257e23b24d95833fc45826fc1727",
+      "isHidden": false
+    },
+    "b1e1efb317fd4453afb29aa4d2e93158": {
+      "id": "b1e1efb317fd4453afb29aa4d2e93158",
+      "name": "data_de_entrada",
+      "label": "Data De Entrada",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "089fb2f95552430a87357aaa086ba786",
+      "isHidden": false
+    },
+    "2fb7aa4444d34bbe9763001ed96c02c1": {
+      "id": "2fb7aa4444d34bbe9763001ed96c02c1",
+      "name": "data_de_saida",
+      "label": "Data De Saida",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "9d3eb2089ed44f798de11e74180888d0",
+      "isHidden": false
+    },
+    "3e4c1733d8064452970047b8a81ebf5c": {
+      "id": "3e4c1733d8064452970047b8a81ebf5c",
+      "name": "responsavel_pela_visita",
+      "label": "Responsavel_pela_visita",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Sim",
+          "value": "1"
+        },
+        {
+          "label": "Não",
+          "value": "2"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "0e18c1ef854347fbb1e8bc30079f6753",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Solicitação de Visita</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Solicitação de Visita</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 14:20:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f1a3b7c99369421092c3fa497bba108e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Solicitação de Visita</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_update_name>sys_cb_topic_f1a3b7c99369421092c3fa497bba108e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:58:52</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+</record_update>
