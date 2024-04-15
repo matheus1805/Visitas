@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 12:57:08</sys_created_on>
+        <sys_id>727d5f7e9311021092c3fa497bba10e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1343295_vst_cadastro_visitantes.x_1343295_vst.admin</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_security_acl display_value="x_1343295_vst_cadastro_visitantes">3a7d5f7e9311021092c3fa497bba10e4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_727d5f7e9311021092c3fa497bba10e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 12:57:08</sys_updated_on>
+        <sys_user_role display_value="x_1343295_vst.admin" name="x_1343295_vst.admin">42fbdf3e9311021092c3fa497bba10db</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</application>
+        <file_path/>
+        <instance_id>b1e134b8dbd23998ebdd2a591396196c</instance_id>
+        <instance_name>dev200140</instance_name>
+        <name>sys_security_acl_role_727d5f7e9311021092c3fa497bba10e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-05 12:57:08</sys_created_on><sys_id>727d5f7e9311021092c3fa497bba10e8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1343295_vst_cadastro_visitantes.x_1343295_vst.admin</sys_name><sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package><sys_policy/><sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope><sys_security_acl display_value="x_1343295_vst_cadastro_visitantes">3a7d5f7e9311021092c3fa497bba10e4</sys_security_acl><sys_update_name>sys_security_acl_role_727d5f7e9311021092c3fa497bba10e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-05 12:57:08</sys_updated_on><sys_user_role display_value="x_1343295_vst.admin" name="x_1343295_vst.admin">42fbdf3e9311021092c3fa497bba10db</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1640155697</payload_hash>
+        <record_name>x_1343295_vst_cadastro_visitantes.x_1343295_vst.admin</record_name>
+        <reverted_from/>
+        <source>306b93f69311021092c3fa497bba10b2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-05 12:57:08</sys_created_on>
+        <sys_id>727d5f7e9311021092c3fa497bba10eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18eae5597aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-05 12:57:08</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b67d5f7ebf1102101a40063bd08230ea</update_guid>
+        <update_guid_history>b67d5f7ebf1102101a40063bd08230ea:1640155697</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1343295_vst_cadastro_visitantes.x_1343295_vst.admin">fa4d63c69325021092c3fa497bba1048</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-15 16:26:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>082d7c80f68b48a880616fee7bed7844</sys_id>
+        <sys_metadata>727d5f7e9311021092c3fa497bba10e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1343295_vst_cadastro_visitantes.x_1343295_vst.admin</sys_name>
+        <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
+        <sys_scope_delete display_value="">225759aa005e4a8abca5b7215b292fa4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_727d5f7e9311021092c3fa497bba10e8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_727d5f7e9311021092c3fa497bba10e8">727d5f7e9311021092c3fa497bba10eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 16:26:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

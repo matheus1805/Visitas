@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>wfsolicitacoesvisitas</internal_name>
-        <label_cache>[{"name":"Created_1.current.assigned_to.phone","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"},{"name":"Created_1.current.assigned_to.department","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Solicitações Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"assigned_to"},{"name":"Created_1.current.localidade.phone","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"phone"},{"name":"Created_1.current.localidade.state","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛State / Province","reference":"","reference_display":"State / Province","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"state"},{"name":"Created_1.current.localidade.street","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛Street","reference":"","reference_display":"Street","type":"multi_two_lines","base_type":"multi_two_lines","parent_table_name":"cmn_location","column_name":"street"},{"name":"Created_1.current.localidade","label":"Trigger - Record Created➛Solicitações Record➛Localidade","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"localidade"},{"name":"Created_1.current.u_end_date","label":"Trigger - Record Created➛Solicitações Record➛Data da Saida","reference":"","reference_display":"Data da Saida","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"u_end_date"},{"name":"Created_1.current.u_start_date","label":"Trigger - Record Created➛Solicitações Record➛Data da Entrada","reference":"","reference_display":"Data da Entrada","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"u_start_date"},{"name":"8f9213b0-a8d9-440d-93b7-9280bc8182e4.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"number"},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações Record","reference":"x_1343295_vst_solicitacoes","reference_display":"Solicitações","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Solicitações Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Solicitações Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"sys_created_on"},{"name":"e210e917-3dcd-4fcb-bd5f-591f93e45a50.record.visitante.e_mail","label":"1 - Update Record➛Solicitações Record➛Visitante➛E-mail","reference":"","reference_display":"E-mail","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"e_mail"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.visitante.e_mail","label":"Trigger - Record Created➛Solicitações Record➛Visitante➛E-mail","reference":"","reference_display":"E-mail","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"e_mail"},{"name":"Created_1.current.visitante.nome","label":"Trigger - Record Created➛Solicitações Record➛Visitante➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"nome"}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.visitante.nome","label":"Trigger - Record Created➛Solicitações Record➛Visitante➛Nome","reference":"","reference_display":"Nome","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"nome"},{"name":"Created_1.current.visitante.e_mail","label":"Trigger - Record Created➛Solicitações Record➛Visitante➛E-mail","reference":"","reference_display":"E-mail","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"e_mail"},{"name":"Created_1.current.assigned_to.email","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e210e917-3dcd-4fcb-bd5f-591f93e45a50.record.visitante.e_mail","label":"1 - Update Record➛Solicitações Record➛Visitante➛E-mail","reference":"","reference_display":"E-mail","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_cadastro_visitantes","column_name":"e_mail"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Solicitações Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"sys_created_on"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Solicitações Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger - Record Created➛Solicitações Record","reference":"x_1343295_vst_solicitacoes","reference_display":"Solicitações","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Solicitações Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"number"},{"name":"8f9213b0-a8d9-440d-93b7-9280bc8182e4.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.u_start_date","label":"Trigger - Record Created➛Solicitações Record➛Data da Entrada","reference":"","reference_display":"Data da Entrada","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"u_start_date"},{"name":"Created_1.current.u_end_date","label":"Trigger - Record Created➛Solicitações Record➛Data da Saida","reference":"","reference_display":"Data da Saida","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"u_end_date"},{"name":"Created_1.current.localidade","label":"Trigger - Record Created➛Solicitações Record➛Localidade","reference":"cmn_location","reference_display":"Location","type":"reference","base_type":"reference","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"localidade"},{"name":"Created_1.current.localidade.street","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛Street","reference":"","reference_display":"Street","type":"multi_two_lines","base_type":"multi_two_lines","parent_table_name":"cmn_location","column_name":"street"},{"name":"Created_1.current.localidade.state","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛State / Province","reference":"","reference_display":"State / Province","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"state"},{"name":"Created_1.current.localidade.phone","label":"Trigger - Record Created➛Solicitações Record➛Localidade➛Phone","reference":"","reference_display":"Phone","type":"string","base_type":"string","parent_table_name":"cmn_location","column_name":"phone"},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Solicitações Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1343295_vst_solicitacoes","column_name":"assigned_to"},{"name":"Created_1.current.assigned_to.department","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"department"},{"name":"Created_1.current.assigned_to.phone","label":"Trigger - Record Created➛Solicitações Record➛Assigned to➛Business phone","reference":"","reference_display":"Business phone","type":"ph_number","base_type":"ph_number","parent_table_name":"sys_user","column_name":"phone"}]</label_cache>
         <master_snapshot>d40c74989365021092c3fa497bba10cb</master_snapshot>
         <name>wf-solicitacoes-visitas</name>
         <natlang/>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:15:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>65d59c5093a1021092c3fa497bba1068</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>wf-solicitacoes-visitas</sys_name>
         <sys_overrides/>
         <sys_package display_value="Visitas" source="x_1343295_vst">3c6b93f69311021092c3fa497bba10ad</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_update_name>sys_hub_flow_65d59c5093a1021092c3fa497bba1068</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:34</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=65d59c5093a1021092c3fa497bba1068"/>
@@ -94,10 +94,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:23:11</sys_created_on>
         <sys_id>7687585093e1021092c3fa497bba10d5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -266,7 +266,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -325,14 +325,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:23:11</sys_created_on>
         <sys_id>628794dc93a1021092c3fa497bba1088</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -350,7 +350,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -409,14 +409,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:23:11</sys_created_on>
         <sys_id>e687585093e1021092c3fa497bba10d1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -448,10 +448,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:29:42</sys_created_on>
         <sys_id>020954d093e1021092c3fa497bba1023</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>8f9213b0-a8d9-440d-93b7-9280bc8182e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=020954d093e1021092c3fa497bba1023"/>
@@ -601,10 +601,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:46:57</sys_created_on>
         <sys_id>2afc1cd493e1021092c3fa497bba1018</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>d441824a-e0ce-45b1-86c4-9e11e5ff4c21</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2afc1cd493e1021092c3fa497bba1018"/>
@@ -690,10 +690,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:46:57</sys_created_on>
         <sys_id>66fc1cd493e1021092c3fa497bba100f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>4474e1e8-0865-414a-a5fd-d0e62eb36c57</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66fc1cd493e1021092c3fa497bba100f"/>
@@ -779,10 +779,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:35:52</sys_created_on>
         <sys_id>987a9c1493e1021092c3fa497bba1081</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>8450d5a6-3228-4a91-ae08-ad84092e894a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=987a9c1493e1021092c3fa497bba1081"/>
@@ -868,10 +868,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 16:26:15</sys_created_on>
         <sys_id>99b37c109365021092c3fa497bba1047</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>3cd459f6-e451-4e8a-8be4-7ea2acd07e7e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99b37c109365021092c3fa497bba1047"/>
@@ -896,12 +896,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 16:55:01</sys_created_on>
         <sys_id>364ab0189365021092c3fa497bba105f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 16:55:01</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p data-tinymcerootblock=""&gt;Segue a&amp;nbsp; sua Informa&amp;ccedil;&amp;atilde;o de Acesso&lt;/p&gt;
-&lt;p data-tinymcerootblock=""&gt;Requisi&amp;ccedil;&amp;atilde;o:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dc68f75e-7a5a-4cca-9531-994091ebb18a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dc68f75e-7a5a-4cca-9531-994091ebb18a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Solicita&amp;ccedil;&amp;otilde;es Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dc68f75e-7a5a-4cca-9531-994091ebb18a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Requisi&amp;ccedil;&amp;atilde;o:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dc68f75e-7a5a-4cca-9531-994091ebb18a}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:dc68f75e-7a5a-4cca-9531-994091ebb18a}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Solicita&amp;ccedil;&amp;otilde;es Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_dc68f75e-7a5a-4cca-9531-994091ebb18a" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;Periodo de "&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3e11c907-ace4-417a-a45d-1736bd70eb70}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Solicita&amp;ccedil;&amp;otilde;es Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3e11c907-ace4-417a-a45d-1736bd70eb70" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt; "a"&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f99efa1b-38e5-4128-8d53-e82f1facd486}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Solicita&amp;ccedil;&amp;otilde;es Record &amp;gt; Data da Saida"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Data da Saida&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f99efa1b-38e5-4128-8d53-e82f1facd486" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;table style="height: 240px;" width="1194"&gt;
 &lt;tbody&gt;
@@ -984,10 +984,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:23:12</sys_created_on>
         <sys_id>be87585093e1021092c3fa497bba10db</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:07:28</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>e210e917-3dcd-4fcb-bd5f-591f93e45a50</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be87585093e1021092c3fa497bba10db"/>
@@ -1069,10 +1069,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:46:57</sys_created_on>
         <sys_id>2afc1cd493e1021092c3fa497bba1011</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>3fddeb99-53ba-4b14-96d8-6ee38bab964d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1142,10 +1142,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:35:52</sys_created_on>
         <sys_id>947a9c1493e1021092c3fa497bba1079</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>deda00af-78a0-49d1-96c0-18c7369425a6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1215,10 +1215,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-09 14:35:52</sys_created_on>
         <sys_id>d07a9c1493e1021092c3fa497bba1084</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Visitas">3c6b93f69311021092c3fa497bba10ad</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 17:02:33</sys_updated_on>
+        <sys_updated_on>2024-04-15 18:54:44</sys_updated_on>
         <ui_id>7e16d954-85bd-425c-bb93-c7e7eafddb0a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
